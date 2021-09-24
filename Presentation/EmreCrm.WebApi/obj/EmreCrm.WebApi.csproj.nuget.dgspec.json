@@ -1,0 +1,378 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.WebApi\\EmreCrm.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj",
+        "projectName": "EmreCrm.Core",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj",
+        "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
+        "projectName": "EmreCrm.Data",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
+        "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
+        "projectName": "EmreCrm.Model",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
+        "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
+        "projectName": "EmreCrm.Service",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
+        "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj"
+              },
+              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj"
+              },
+              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.WebApi\\EmreCrm.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.WebApi\\EmreCrm.WebApi.csproj",
+        "projectName": "EmreCrm.WebApi",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.WebApi\\EmreCrm.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

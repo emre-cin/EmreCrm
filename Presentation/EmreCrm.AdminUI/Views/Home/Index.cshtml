@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Kullanıcı Listesi";
+}
+<div class="m-grid__item m-grid__item--fluid  m-grid m-grid--ver-desktop m-grid--desktop m-page__container m-body">
+    <div class="m-grid__item m-grid__item--fluid m-wrapper">
+        <div class="m-content">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="m-portlet m-portlet--mobile  m-portlet--rounded">
+                        <div class="m-portlet__head">
+                            <div class="m-portlet__head-caption">
+                                <div class="m-portlet__head-title">
+                                    <h3 class="m-portlet__head-text">
+                                        Kullanıcılar
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-portlet__body">
+                            @Html.AjaxGrid(Url.Action("Users_Read"))
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section FooterScripts{
+
+    <script type="text/javascript">
+
+        $.App.initGrid('.mvc-grid');
+
+    </script>
+
+}

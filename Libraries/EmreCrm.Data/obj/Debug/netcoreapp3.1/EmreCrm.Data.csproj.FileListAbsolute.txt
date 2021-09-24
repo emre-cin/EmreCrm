@@ -1,0 +1,11 @@
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\bin\Debug\netcoreapp3.1\EmreCrm.Data.deps.json
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\bin\Debug\netcoreapp3.1\EmreCrm.Data.dll
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\bin\Debug\netcoreapp3.1\EmreCrm.Data.pdb
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\bin\Debug\netcoreapp3.1\EmreCrm.Model.dll
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\bin\Debug\netcoreapp3.1\EmreCrm.Model.pdb
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\obj\Debug\netcoreapp3.1\EmreCrm.Data.csprojAssemblyReference.cache
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\obj\Debug\netcoreapp3.1\EmreCrm.Data.AssemblyInfoInputs.cache
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\obj\Debug\netcoreapp3.1\EmreCrm.Data.AssemblyInfo.cs
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\obj\Debug\netcoreapp3.1\EmreCrm.Data.csproj.CopyComplete
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\obj\Debug\netcoreapp3.1\EmreCrm.Data.dll
+C:\Users\Emre\Desktop\Emre Crm\Libraries\EmreCrm.Data\obj\Debug\netcoreapp3.1\EmreCrm.Data.pdb

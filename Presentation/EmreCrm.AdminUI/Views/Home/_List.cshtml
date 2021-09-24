@@ -1,0 +1,24 @@
+﻿@model IEnumerable<UserModel>
+@using EmreCrm.Core.Helper
+@(Html
+    .Grid(Model)
+    .Build(columns =>
+    {
+        columns.Add(model => model.Name).Css("align-middle");
+        columns.Add(model => model.Surname).Css("align-middle");
+        columns.Add(model => model.Email).Css("align-middle");
+        columns.Add(model => model.Telephone).Css("align-middle");
+        columns.Add().Titled("İşlem").Css("align-middle").Encoded(false).RenderedAs(model => GridHelper.HtmlGridActionsBuilder(id: model.Id, edit: true, editUrl: "/kullanici", delete: true, deleteUrl: "/kullanici-sil", deleteRedirectUrl: "", detail: false, detailUrl: ""));
+    })
+    .Id("UserList")
+    .Empty("Sistemde kullanıcı bulunamadı")
+    .Css("table table-striped- table-bordered table-hover table-checkable")
+    .Sortable()
+    .UsingProcessingMode(GridProcessingMode.Manual)
+    .Pageable(pager =>
+    {
+        pager.RowsPerPage = 20;
+        pager.ProcessorType = GridProcessorType.Pre;
+        pager.TotalRows = ViewBag.TotalRows;
+    })
+)

@@ -1,0 +1,75 @@
+﻿@model UserModel
+@{
+    ViewData["Title"] = "Yeni Kullanıcı Ekle";
+}
+<div class="m-grid__item m-grid__item--fluid  m-grid m-grid--ver-desktop m-grid--desktop m-page__container m-body">
+    <div class="m-grid__item m-grid__item--fluid m-wrapper">
+        <div class="m-content">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="m-portlet m-portlet--mobile  m-portlet--rounded">
+                        <div class="m-portlet__head">
+                            <div class="m-portlet__head-caption">
+                                <div class="m-portlet__head-title">
+                                    <h3 class="m-portlet__head-text">
+                                        @ViewData["Title"]
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <form id="add-user-form" class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed">
+                            @Html.AntiForgeryToken()
+                            <div class="m-portlet__body">
+                                <div class="form-group m-form__group row">
+                                    <tHelper:label class="col-lg-2 col-form-label" asp-for="Name"></tHelper:label>
+                                    <div class="col-lg-3">
+                                        <tHelper:input asp-for="Name" class="form-control m-input" placeholder="İsim"></tHelper:input>
+                                        <tHelper:span asp-validation-for="Name" class="form-control-feedback text-danger"></tHelper:span>
+                                    </div>
+                                    <tHelper:label class="col-lg-2 col-form-label" asp-for="Surname"></tHelper:label>
+                                    <div class="col-lg-3">
+                                        <tHelper:input asp-for="Surname" class="form-control m-input" placeholder="Soy isim"></tHelper:input>
+                                        <tHelper:span asp-validation-for="Surname" class="form-control-feedback text-danger"></tHelper:span>
+                                    </div>
+
+                                </div>
+                                <div class="form-group m-form__group row">
+                                    <tHelper:label class="col-lg-2 col-form-label" asp-for="Email"></tHelper:label>
+                                    <div class="col-lg-3">
+                                        <tHelper:input type="email" asp-for="Email" class="form-control m-input" placeholder="E-posta"></tHelper:input>
+                                        <tHelper:span asp-validation-for="Email" class="form-control-feedback text-danger"></tHelper:span>
+                                    </div>
+                                    <tHelper:label class="col-lg-2 col-form-label" asp-for="Telephone"></tHelper:label>
+                                    <div class="col-lg-3">
+                                        <tHelper:input type="tel" asp-for="Telephone" class="form-control m-input" placeholder="Telefon"></tHelper:input>
+                                        <tHelper:span asp-validation-for="Telephone" class="form-control-feedback text-danger"></tHelper:span>
+                                    </div>
+                                    @*<tHelper:label class="col-lg-2 col-form-label" asp-for="Gender"></tHelper:label>
+                                        <div class="col-lg-3">
+                                            <tHelper:input asp-for="Gender" class="form-control m-input" placeholder="Cinsiyet"></tHelper:input>
+                                            <tHelper:span asp-validation-for="Gender" class="form-control-feedback text-danger"></tHelper:span>
+                                        </div>*@
+                                </div>
+                            </div>
+                            <div class="m-portlet__foot m-portlet__no-border m-portlet__foot--fit">
+                                <div class="m-form__actions m-form__actions--solid">
+                                    <div class="row">
+                                        <div class="col-lg-2"></div>
+                                        <div class="col-lg-10">
+                                            <button type="button" onclick="$.User.add()" class="btn btn-success">Ekle</button>
+                                            <button type="reset" class="btn btn-secondary">Temizle</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section FooterScripts {
+    <script src="/app/js/user.js" type="text/javascript"></script>
+}

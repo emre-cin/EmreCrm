@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmreCrm.Core\EmreCrm.Core.csproj" />
+    <ProjectReference Include="..\EmreCrm.Data\EmreCrm.Data.csproj" />
+    <ProjectReference Include="..\EmreCrm.Model\EmreCrm.Model.csproj" />
+  </ItemGroup>
+
+</Project>
