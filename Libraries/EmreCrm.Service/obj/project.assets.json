@@ -5034,11 +5034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
       "projectName": "EmreCrm.Service",
-      "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
+      "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
       "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\obj\\",
+      "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5057,14 +5057,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
-              "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj"
+            "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj"
             },
-            "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
-              "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj"
+            "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj"
             },
-            "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
-              "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
+            "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
             }
           }
         }

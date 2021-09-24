@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.AdminUI\\EmreCrm.AdminUI.csproj": {}
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Presentation\\EmreCrm.AdminUI\\EmreCrm.AdminUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj",
         "projectName": "EmreCrm.Core",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
         "projectName": "EmreCrm.Data",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -122,8 +122,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
               }
             }
           }
@@ -161,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
         "projectName": "EmreCrm.Model",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -226,14 +226,14 @@
         }
       }
     },
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj": {
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
         "projectName": "EmreCrm.Service",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -252,14 +252,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj"
               },
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj"
               },
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
               }
             }
           }
@@ -294,14 +294,14 @@
         }
       }
     },
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.AdminUI\\EmreCrm.AdminUI.csproj": {
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Presentation\\EmreCrm.AdminUI\\EmreCrm.AdminUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.AdminUI\\EmreCrm.AdminUI.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Presentation\\EmreCrm.AdminUI\\EmreCrm.AdminUI.csproj",
         "projectName": "EmreCrm.AdminUI",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.AdminUI\\EmreCrm.AdminUI.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Presentation\\EmreCrm.AdminUI\\EmreCrm.AdminUI.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.AdminUI\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Presentation\\EmreCrm.AdminUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -320,14 +320,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Core\\EmreCrm.Core.csproj"
               },
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
               },
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj"
               }
             }
           }

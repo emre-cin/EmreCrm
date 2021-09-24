@@ -125,7 +125,6 @@ namespace EmreCrm.AdminUI.Controllers
 
             return RedirectToAction("Index");
         }
-
         #endregion
     }
 }

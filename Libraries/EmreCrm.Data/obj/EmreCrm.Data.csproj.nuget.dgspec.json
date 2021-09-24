@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {}
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
         "projectName": "EmreCrm.Data",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\EmreCrm.Data.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Data\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
-                "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
+              "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+                "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
+    "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
         "projectName": "EmreCrm.Model",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\EmreCrm.Model.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Model\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

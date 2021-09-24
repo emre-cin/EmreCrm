@@ -7623,11 +7623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.WebApi\\EmreCrm.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Presentation\\EmreCrm.WebApi\\EmreCrm.WebApi.csproj",
       "projectName": "EmreCrm.WebApi",
-      "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.WebApi\\EmreCrm.WebApi.csproj",
+      "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Presentation\\EmreCrm.WebApi\\EmreCrm.WebApi.csproj",
       "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Presentation\\EmreCrm.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Presentation\\EmreCrm.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7646,8 +7646,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj": {
-              "projectPath": "C:\\Users\\Emre\\Desktop\\Emre Crm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj"
+            "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\EmreCrm\\Libraries\\EmreCrm.Service\\EmreCrm.Service.csproj"
             }
           }
         }
